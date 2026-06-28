@@ -14,111 +14,107 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav">
-      <span class="brand"><a href="/">José Alberto Ferreira</a></span>
-      <div class="nav-links">
+  <div class="layout">
+    <aside class="sidebar">
+      <a href="/" class="sb-photo">
+        <picture>
+          <source srcset="/assets/profile.webp" type="image/webp">
+          <img src="/assets/profile.jpg" alt="José Alberto Ferreira" width="160" height="240">
+        </picture>
+      </a>
+      <div class="sb-name"><a href="/">José Alberto Ferreira</a></div>
+      <div class="sb-title">PhD Researcher in Economics<br>European University Institute</div>
+      <nav class="sb-nav">
         <a href="/">Home</a>
         <a href="/cv.html">CV</a>
         <a href="/research.html" class="active">Research</a>
         <a href="/compnet.html">CompNet</a>
         <a href="/portugal.html">Portugal</a>
+      </nav>
+      <div class="socials">
+        <a href="mailto:Alberto.Ferreira@eui.eu" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L3.6 6h16.8L12 11zm0 2.2L2 6.5V18h20V6.5l-10 6.7z"/></svg></a>
+        <a href="https://www.linkedin.com/in/joseazevedoferreira/" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.06c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.77 2.65 4.77 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24H8V8z"/></svg></a>
+        <a href="https://x.com/jaferreira13" aria-label="X" title="X (Twitter)">
+          <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5.3-7-6.1 7H1.7l8-9.2L1 2h7l4.8 6.4L18.9 2zm-2.4 18h1.9L7.6 4H5.6l10.9 16z"/></svg></a>
       </div>
-    </nav>
-  </header>
+      <div class="sb-foot">© <span id="year">2026</span> José Alberto Ferreira</div>
+    </aside>
 
-  <main class="wrap">
-    <h1>Research</h1>
+    <main class="content">
+      <h1>Research</h1>
 
-    <div class="tint-panel" style="margin-bottom:40px;">
-      <p style="margin:0 0 .8em;"><strong>Main question.</strong> How do firms (re)allocate resources
-      over time and across the cross-section — and what does that imply for macro aggregates such as
-      business dynamism and productivity?</p>
-      <p style="margin:0;"><strong>Approach.</strong> Micro-to-macro: I bring census-level firm data into
-      models with real and financial frictions.</p>
-    </div>
+      <div class="tint-panel" style="margin-bottom:36px;">
+        <p style="margin:0 0 .8em;"><strong>Main question.</strong> How do firms (re)allocate resources over
+        time and across the cross-section — and what does that imply for macro aggregates such as business
+        dynamism and productivity?</p>
+        <p style="margin:0;"><strong>Approach.</strong> Micro-to-macro: I bring census-level firm data into
+        models with real and financial frictions.</p>
+      </div>
 
-    <section>
-      <h2>Working Papers</h2>
+      <section>
+        <h2>Working Papers</h2>
 
-      <details class="paper">
-        <summary>
-          <span>
-            <span class="ptitle">Firm Dynamics with Intangible Capital</span>
-            <div class="pauthors">solo-authored</div>
-          </span>
-          <span class="chev">▶</span>
-        </summary>
-        <div class="pbody">
-          <span class="status">Job market paper</span>
-          <p><em>How can firms grow and finance themselves in an increasingly intangible economy?</em></p>
-          <p>[Placeholder abstract — a paragraph on the model of firm growth and financing when capital is
-          increasingly intangible, the frictions involved, and the quantitative findings. Draft to be added.]</p>
-          <div class="plinks">
-            <a href="#">Draft (PDF)</a>
-            <a href="#">Slides</a>
+        <details class="paper">
+          <summary>
+            <span>
+              <span class="ptitle">Firm Dynamics with Intangible Capital</span>
+              <div class="pauthors">solo-authored</div>
+            </span>
+            <span class="chev">▶</span>
+          </summary>
+          <div class="pbody">
+            <span class="status">Job market paper</span>
+            <p><em>How can firms grow and finance themselves in an increasingly intangible economy?</em></p>
+            <p>[Placeholder abstract — a paragraph on the model of firm growth and financing when capital is
+            increasingly intangible, the frictions involved, and the quantitative findings.]</p>
+            <div class="plinks"><a href="#">Draft (PDF)</a><a href="#">Slides</a></div>
           </div>
-        </div>
-      </details>
+        </details>
 
-      <details class="paper">
-        <summary>
-          <span>
-            <span class="ptitle">Nonlinear Productivity Dynamics</span>
-            <div class="pauthors">with <a href="https://mariusgruenewald.com/">Marius Grünewald</a> and <a href="https://mccarthydavid.com/">David McCarthy</a></div>
-          </span>
-          <span class="chev">▶</span>
-        </summary>
-        <div class="pbody">
-          <span class="status">Working paper</span>
-          <p><em>How harmless is the AR(1) assumption on productivity?</em></p>
-          <p>[Placeholder abstract — what we find when productivity processes are allowed to be nonlinear,
-          the distinction between TFPQ and TFPR, and the implications for firm dynamics. Draft to be added.]</p>
-          <div class="plinks">
-            <a href="#">Draft (PDF)</a>
-            <a href="#">Slides</a>
+        <details class="paper">
+          <summary>
+            <span>
+              <span class="ptitle">Nonlinear Productivity Dynamics</span>
+              <div class="pauthors">with <a href="https://mariusgruenewald.com/">Marius Grünewald</a> and <a href="https://mccarthydavid.com/">David McCarthy</a></div>
+            </span>
+            <span class="chev">▶</span>
+          </summary>
+          <div class="pbody">
+            <span class="status">Working paper</span>
+            <p><em>How harmless is the AR(1) assumption on productivity?</em></p>
+            <p>[Placeholder abstract — what we find when productivity processes are allowed to be nonlinear,
+            the distinction between TFPQ and TFPR, and the implications for firm dynamics.]</p>
+            <div class="plinks"><a href="#">Draft (PDF)</a><a href="#">Slides</a></div>
           </div>
-        </div>
-      </details>
+        </details>
 
-      <details class="paper">
-        <summary>
-          <span>
-            <span class="ptitle">Dissecting the Decline in Investment Rates: Shocks vs. Responsiveness</span>
-            <div class="pauthors">with <a href="https://sites.google.com/view/cmaggi/">Chiara Maggi</a> and <a href="https://scholar.google.com/citations?user=UAxaAOsAAAAJ&hl=en">Diaa Noureldin</a></div>
-          </span>
-          <span class="chev">▶</span>
-        </summary>
-        <div class="pbody">
-          <span class="status">Working paper</span>
-          <p><em>Why has investment dynamism declined across countries since the Global Financial Crisis?</em></p>
-          <p>[Placeholder abstract — decomposing the decline in investment into the role of shocks versus
-          firms' responsiveness to them, using cross-country firm-level data. Draft to be added.]</p>
-          <div class="plinks">
-            <a href="#">Draft (PDF)</a>
-            <a href="#">Slides</a>
+        <details class="paper">
+          <summary>
+            <span>
+              <span class="ptitle">Dissecting the Decline in Investment Rates: Shocks vs. Responsiveness</span>
+              <div class="pauthors">with <a href="https://sites.google.com/view/cmaggi/">Chiara Maggi</a> and <a href="https://scholar.google.com/citations?user=UAxaAOsAAAAJ&hl=en">Diaa Noureldin</a></div>
+            </span>
+            <span class="chev">▶</span>
+          </summary>
+          <div class="pbody">
+            <span class="status">Working paper</span>
+            <p><em>Why has investment dynamism declined across countries since the Global Financial Crisis?</em></p>
+            <p>[Placeholder abstract — decomposing the decline in investment into the role of shocks versus
+            firms' responsiveness to them, using cross-country firm-level data.]</p>
+            <div class="plinks"><a href="#">Draft (PDF)</a><a href="#">Slides</a></div>
           </div>
-        </div>
-      </details>
-    </section>
+        </details>
+      </section>
 
-    <section>
-      <h2>Policy Work</h2>
-      <p>Through <a href="/compnet.html">CompNet</a> I contribute to cross-country research and policy notes
-      on firm dynamics, built on the Micro Data Infrastructure (MDI). [Add links as outputs are published.]</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap foot">
-      <span>© <span id="year">2026</span> José Alberto Ferreira</span>
-      <span>
-        <a href="mailto:Alberto.Ferreira@eui.eu">Email</a> ·
-        <a href="https://www.linkedin.com/in/joseazevedoferreira/">LinkedIn</a> ·
-        <a href="https://x.com/jaferreira13">X</a>
-      </span>
-    </div>
-  </footer>
+      <section>
+        <h2>Policy Work</h2>
+        <p>Through <a href="/compnet.html">CompNet</a> I contribute to cross-country research and policy notes
+        on firm dynamics, built on the Micro Data Infrastructure (MDI). [Add links as outputs are published.]</p>
+      </section>
+    </main>
+  </div>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

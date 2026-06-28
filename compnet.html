@@ -14,56 +14,61 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav">
-      <span class="brand"><a href="/">José Alberto Ferreira</a></span>
-      <div class="nav-links">
+  <div class="layout">
+    <aside class="sidebar">
+      <a href="/" class="sb-photo">
+        <picture>
+          <source srcset="/assets/profile.webp" type="image/webp">
+          <img src="/assets/profile.jpg" alt="José Alberto Ferreira" width="160" height="240">
+        </picture>
+      </a>
+      <div class="sb-name"><a href="/">José Alberto Ferreira</a></div>
+      <div class="sb-title">PhD Researcher in Economics<br>European University Institute</div>
+      <nav class="sb-nav">
         <a href="/">Home</a>
         <a href="/cv.html">CV</a>
         <a href="/research.html">Research</a>
         <a href="/compnet.html" class="active">CompNet</a>
         <a href="/portugal.html">Portugal</a>
+      </nav>
+      <div class="socials">
+        <a href="mailto:Alberto.Ferreira@eui.eu" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L3.6 6h16.8L12 11zm0 2.2L2 6.5V18h20V6.5l-10 6.7z"/></svg></a>
+        <a href="https://www.linkedin.com/in/joseazevedoferreira/" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.06c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.77 2.65 4.77 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24H8V8z"/></svg></a>
+        <a href="https://x.com/jaferreira13" aria-label="X" title="X (Twitter)">
+          <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5.3-7-6.1 7H1.7l8-9.2L1 2h7l4.8 6.4L18.9 2zm-2.4 18h1.9L7.6 4H5.6l10.9 16z"/></svg></a>
       </div>
-    </nav>
-  </header>
+      <div class="sb-foot">© <span id="year">2026</span> José Alberto Ferreira</div>
+    </aside>
 
-  <main class="wrap">
-    <h1>CompNet</h1>
-    <p class="lead">I am an external research consultant for CompNet, hosted at the Halle Institute for
-    Economic Research (IWH), working on firm dynamics and productivity.</p>
+    <main class="content">
+      <h1>CompNet</h1>
+      <p class="lead">I am an external research consultant for CompNet, hosted at the Halle Institute for
+      Economic Research (IWH), working on firm dynamics and productivity.</p>
 
-    <section>
-      <h2>The Micro Data Infrastructure (MDI)</h2>
-      <p>I'm part of a team of economists and data scientists building the <strong>Micro Data
-      Infrastructure (MDI)</strong> — a European, cross-country, census-style, firm-level dataset
-      designed for research and policy on competitiveness and firm dynamics.</p>
-      <p>The infrastructure assembles confidential firm-level data across countries in a harmonised way,
-      making it possible to study reallocation, productivity, and investment with comparable micro data
-      at a European scale.</p>
-    </section>
+      <section style="margin-top:40px;">
+        <h2>The Micro Data Infrastructure (MDI)</h2>
+        <p>I'm part of a team of economists and data scientists building the <strong>Micro Data
+        Infrastructure (MDI)</strong> — a European, cross-country, census-style, firm-level dataset
+        designed for research and policy on competitiveness and firm dynamics.</p>
+        <p>The infrastructure assembles confidential firm-level data across countries in a harmonised way,
+        making it possible to study reallocation, productivity, and investment with comparable micro data
+        at a European scale.</p>
+      </section>
 
-    <section>
-      <h2>Outputs</h2>
-      <p>I conduct cross-country research and contribute brief policy notes on firm-dynamics topics built
-      on this dataset. [Add links to notes and publications as they appear.]</p>
-    </section>
+      <section>
+        <h2>Outputs</h2>
+        <p>I conduct cross-country research and contribute brief policy notes on firm-dynamics topics built
+        on this dataset. [Add links to notes and publications as they appear.]</p>
+      </section>
 
-    <section>
-      <h2>Links</h2>
-      <p><a href="https://www.comp-net.org/">CompNet</a> · <a href="https://www.iwh-halle.de/en/">Halle Institute for Economic Research (IWH)</a></p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap foot">
-      <span>© <span id="year">2026</span> José Alberto Ferreira</span>
-      <span>
-        <a href="mailto:Alberto.Ferreira@eui.eu">Email</a> ·
-        <a href="https://www.linkedin.com/in/joseazevedoferreira/">LinkedIn</a> ·
-        <a href="https://x.com/jaferreira13">X</a>
-      </span>
-    </div>
-  </footer>
+      <section>
+        <h2>Links</h2>
+        <p><a href="https://www.comp-net.org/">CompNet</a> · <a href="https://www.iwh-halle.de/en/">Halle Institute for Economic Research (IWH)</a></p>
+      </section>
+    </main>
+  </div>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
