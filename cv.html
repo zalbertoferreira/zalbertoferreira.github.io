@@ -14,23 +14,28 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <a href="/" class="sb-photo">
-        <picture>
-          <source srcset="/assets/profile.webp" type="image/webp">
-          <img src="/assets/profile.jpg" alt="José Alberto Ferreira" width="160" height="240">
-        </picture>
-      </a>
-      <div class="sb-name"><a href="/">José Alberto Ferreira</a></div>
-      <div class="sb-title">PhD Researcher in Economics<br>European University Institute</div>
-      <nav class="sb-nav">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="tb-brand" href="/">José Alberto Ferreira</a>
+      <nav class="tb-nav">
         <a href="/">Home</a>
         <a href="/cv.html" class="active">CV</a>
         <a href="/research.html">Research</a>
         <a href="/compnet.html">CompNet</a>
         <a href="/portugal.html">Portugal</a>
       </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <a href="/" class="sb-photo">
+        <picture>
+          <source srcset="/assets/profile_sq.webp" type="image/webp">
+          <img src="/assets/profile_sq.jpg" alt="José Alberto Ferreira" width="190" height="190">
+        </picture>
+      </a>
+      <div class="sb-title">PhD Researcher in Economics<br><span class="sb-role">European University Institute</span></div>
       <div class="socials">
         <a href="mailto:Alberto.Ferreira@eui.eu" aria-label="Email" title="Email">
           <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L3.6 6h16.8L12 11zm0 2.2L2 6.5V18h20V6.5l-10 6.7z"/></svg></a>
