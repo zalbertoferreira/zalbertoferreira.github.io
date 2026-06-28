@@ -68,8 +68,11 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .sidebar { position: sticky; top: 84px; }
 .sb-photo { display: block; width: 190px; margin-bottom: 18px; }
 .sb-photo img { width: 190px; height: 190px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 22px rgba(27,39,51,.14); display: block; }
-.sb-title { color: var(--ink); font-size: 1.02rem; line-height: 1.45; margin-bottom: 18px; font-weight: 500; }
-.sb-title .sb-role { color: var(--muted); font-weight: 400; font-size: .93rem; }
+.sb-name { font-family: var(--serif); font-size: 1.32rem; font-weight: 600; line-height: 1.18; margin-bottom: 5px; }
+.sb-name a { color: var(--ink); }
+.sb-name a:hover { color: var(--accent); text-decoration: none; }
+.sb-title { color: var(--muted); font-size: .95rem; line-height: 1.45; margin-bottom: 18px; font-weight: 400; }
+.sb-title .sb-role { color: var(--muted); }
 .sb-foot { color: var(--muted); font-size: .82rem; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
 
 /* ---------- Typography ---------- */
