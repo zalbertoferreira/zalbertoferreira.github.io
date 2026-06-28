@@ -8,8 +8,8 @@ desktop.ini
 # (bio_pt.jpg is the original; optimized versions live in /assets)
 bio_pt.jpg
 
-# Original CV in root; served copy lives in /assets
-CV_AlbertoFerreira.pdf
+# Original CV in root only; the served copy in /assets must be tracked
+/CV_AlbertoFerreira.pdf
 
 # Stray non-website files
 BILL_FIRST YEAR.pdf
