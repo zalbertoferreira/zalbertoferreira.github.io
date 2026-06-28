@@ -71,8 +71,12 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .sb-name { font-family: var(--serif); font-size: 1.32rem; font-weight: 600; line-height: 1.18; margin-bottom: 5px; }
 .sb-name a { color: var(--ink); }
 .sb-name a:hover { color: var(--accent); text-decoration: none; }
-.sb-title { color: var(--muted); font-size: .95rem; line-height: 1.45; margin-bottom: 18px; font-weight: 400; }
-.sb-title .sb-role { color: var(--muted); }
+.sb-affils { margin-bottom: 18px; }
+.affil-item { margin-bottom: 10px; line-height: 1.3; }
+.affil-item:last-child { margin-bottom: 0; }
+.affil-role { color: var(--ink); font-weight: 600; font-size: .95rem; }
+.affil-org { color: var(--muted); font-size: .88rem; }
+.affil-org a { color: var(--accent); }
 .sb-foot { color: var(--muted); font-size: .82rem; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
 
 /* ---------- Typography ---------- */
