@@ -5,18 +5,19 @@
    Restyle quickly via the variables below.
    =========================================================== */
 :root {
-  --ink:      #1b2733;
+  --ink:      #16213a;
   --body:     #33414f;
   --muted:    #6a7682;
-  --accent:   #2f6690;
-  --accent-dk:#1d4e6b;
-  --tint:     #eef3f7;
+  --accent:   #1e3a63;     /* dark navy */
+  --accent-dk:#132542;     /* deeper navy (hover / gradient end) */
+  --tint:     #eceff5;
   --line:     #e4e8ec;
   --bg:       #ffffff;
   --bg-soft:  #f8fafb;
   --maxw:     1200px;
   --sidebar:  280px;
   --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -44,7 +45,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   padding: 13px 40px;
   display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap;
 }
-.tb-brand { color: #fff; font-weight: 700; font-size: 1.12rem; letter-spacing: -.01em; }
+.tb-brand { color: #fff; font-family: var(--serif); font-weight: 600; font-size: 1.28rem; letter-spacing: 0; }
 .tb-brand:hover { color: #fff; text-decoration: none; opacity: .92; }
 .tb-nav { display: flex; gap: 4px; flex-wrap: wrap; }
 .tb-nav a { color: rgba(255,255,255,.82); font-size: .96rem; padding: 6px 13px; border-radius: 7px; }
@@ -72,10 +73,10 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .sb-foot { color: var(--muted); font-size: .82rem; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
 
 /* ---------- Typography ---------- */
-h1, h2, h3 { color: var(--ink); line-height: 1.25; font-weight: 700; }
-h1 { font-size: 2.1rem; margin: 0 0 .35em; letter-spacing: -.01em; }
-h2 { font-size: 1.3rem; margin: 0 0 1rem; padding-bottom: .4rem; border-bottom: 2px solid var(--tint); }
-h3 { font-size: 1.05rem; margin: 1.4em 0 .3em; }
+h1, h2, h3 { color: var(--ink); line-height: 1.2; font-weight: 600; font-family: var(--serif); }
+h1 { font-size: 2.45rem; margin: 0 0 .3em; letter-spacing: -.005em; }
+h2 { font-size: 1.55rem; margin: 0 0 1rem; padding-bottom: .4rem; border-bottom: 2px solid var(--tint); }
+h3 { font-size: 1.18rem; margin: 1.4em 0 .3em; }
 p { margin: 0 0 1.1em; }
 section { margin-bottom: 52px; }
 .lead { font-size: 1.18rem; color: var(--muted); line-height: 1.6; }
