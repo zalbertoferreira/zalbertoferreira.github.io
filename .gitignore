@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Keep source images out if you only want optimized ones served.
+# (bio_pt.jpg is the original; optimized versions live in /assets)
+bio_pt.jpg
+
+# Original CV in root; served copy lives in /assets
+CV_AlbertoFerreira.pdf
+
+# Stray non-website files
+BILL_FIRST YEAR.pdf
