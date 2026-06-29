@@ -13,3 +13,6 @@ bio_pt.jpg
 
 # Stray non-website files
 BILL_FIRST YEAR.pdf
+
+# Source teaching-eval reports (full, private); only the TA versions in /assets are served
+teaching_evals/
