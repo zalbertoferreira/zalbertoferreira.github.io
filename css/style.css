@@ -113,6 +113,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .teach-meta a { color: var(--accent); }
 .teach-item p { margin: 0; }
 .teach-item .plinks { margin-top: 8px; }
+.plabel { color: var(--muted); }
 .sb-foot { color: var(--muted); font-size: .82rem; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
 
 /* ---------- Typography ---------- */
