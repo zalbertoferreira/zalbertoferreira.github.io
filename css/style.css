@@ -80,6 +80,8 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .sb-loc { display: flex; align-items: center; justify-content: center; gap: 5px; color: var(--muted); font-size: .86rem; width: 230px; margin-bottom: 16px; }
 .sb-loc svg { width: 14px; height: 14px; fill: currentColor; opacity: .85; }
 .sidebar .socials { width: 230px; justify-content: center; }
+.socials a.eui-link { width: auto; padding: 0 11px; }
+.socials a.eui-link img { height: 15px; width: auto; display: block; }
 .sb-foot { text-align: center; width: 230px; }
 
 /* ---------- News list ---------- */
