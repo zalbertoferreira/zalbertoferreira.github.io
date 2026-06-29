@@ -103,6 +103,13 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .ep-list { list-style: none; padding: 0; margin: 0; }
 .ep-list li { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: .96rem; }
 .ep-list li:last-child { border-bottom: none; }
+
+/* ---------- Teaching ---------- */
+.teach-item { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.teach-item:last-child { border-bottom: none; }
+.teach-title { font-weight: 600; color: var(--ink); font-size: 1.05rem; }
+.teach-meta { color: var(--muted); font-size: .92rem; margin: 2px 0 8px; }
+.teach-item p { margin: 0; }
 .sb-foot { color: var(--muted); font-size: .82rem; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
 
 /* ---------- Typography ---------- */
