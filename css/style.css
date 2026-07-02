@@ -174,13 +174,40 @@ section { margin-bottom: 52px; }
 .pdf-fallback { padding: 40px; text-align: center; color: var(--muted); }
 
 /* ---------- Responsive ---------- */
+
+/* Tablet / collapse to single column */
 @media (max-width: 820px) {
-  .topbar-inner { padding: 12px 22px; gap: 6px 14px; }
-  .tb-brand { font-size: 1.05rem; }
-  .tb-nav a { padding: 5px 10px; font-size: .92rem; }
-  .layout { grid-template-columns: 1fr; gap: 28px; padding: 28px 22px 60px; }
-  .sidebar { position: static; display: flex; flex-direction: column; align-items: flex-start; }
-  .sb-photo, .sb-photo img { width: 140px; height: 140px; }
+  .topbar { position: static; }
+  .topbar-inner { flex-direction: column; gap: 10px; padding: 12px 20px; text-align: center; }
+  .tb-brand { font-size: 1.18rem; }
+  .tb-nav { justify-content: center; gap: 4px 6px; }
+  .tb-nav a { padding: 6px 11px; font-size: .93rem; }
+
+  .layout { grid-template-columns: 1fr; gap: 34px; padding: 30px 22px 60px; }
+
+  /* Sidebar becomes a centred profile card above the content */
+  .sidebar { position: static; display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .sb-photo, .sb-photo img { width: 152px; height: 152px; }
+  .sb-name, .sb-affils, .sb-loc, .sidebar .socials, .sb-foot { width: 100%; max-width: 320px; }
+  .sb-foot { margin-top: 22px; }
+
   .grid-3, .grid-2, .fig-row { grid-template-columns: 1fr; }
   body { font-size: 16.5px; }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .layout { padding: 24px 16px 52px; gap: 30px; }
+  h1 { font-size: 1.95rem; }
+  h2 { font-size: 1.35rem; }
+  .home-welcome { font-size: 1.3rem; }
+  .lead { font-size: 1.1rem; }
+  section { margin-bottom: 40px; }
+  .tint-panel { padding: 18px 18px; }
+  .cite { padding: 12px 14px; }
+  .paper > summary { padding: 15px 16px; gap: 10px; }
+  .paper .ptitle { font-size: 1rem; }
+  .paper .pbody { padding: 0 16px 18px; }
+  .tb-nav a { font-size: .9rem; padding: 5px 9px; }
+  .pdf-frame { height: 72vh; min-height: 380px; }
 }
