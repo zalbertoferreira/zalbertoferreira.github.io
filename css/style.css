@@ -33,6 +33,8 @@ body {
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-dk); text-decoration: underline; }
+.links-visible a { color: #1a5fb4; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.links-visible a:hover { color: var(--accent-dk); text-decoration-thickness: 2px; }
 
 /* ---------- Coloured top bar ---------- */
 .topbar {
